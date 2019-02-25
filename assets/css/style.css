@@ -1,0 +1,61 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    color: #de04d6;
+    background-color: #0c5a40;
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.05em;
+}
+
+#game-title {
+    font-family: 'Coiny', cursive;
+}
+
+#guesses-left {
+    color: red;
+    padding: 2pt;
+}
+
+#letters-guessed {
+    color: orange;
+    padding: 2pt;
+}
+
+#player-wins {
+    color: aqua;
+    padding: 2pt;
+}
+
+#total-games {
+    color: blue;
+    padding: 2pt;
+}
+
+#my-letter {
+    font-weight: bold;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+    }
+
+/*
+responsive h1-lg {
+    font-size: 2.5em;
+    line-height: 1.125em;
+}
+
+responsive h1-sm {
+    font-size: 2em;
+    line-height: 1.25em;
+}
+
+*/
