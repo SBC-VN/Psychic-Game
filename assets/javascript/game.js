@@ -21,7 +21,7 @@ var totalGamesElement = document.getElementById("total-games");
 function startRound() {
     choicesLeft = 5;
     computerChar = lowerAlph[Math.floor(Math.random() * lowerAlph.length)];
-    console.log("The computer chooses " + computerChar);
+    console.log("[Deliberately left in code for testing] The computer chooses " + computerChar);
     roundsElement.textContent = ++games;
     guessesLeftElement.textContent = choicesLeft;
     lettersGuessedElement.textContent = "";
